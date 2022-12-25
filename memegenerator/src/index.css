@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+body {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.App {
+    border: 1px solid black;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.navbar{
+    display: inline-flex;
+    border: 0.5px solid black;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #AE58AF;
+}
+
+.image--logo {
+    width: 40px;
+    padding-right: 15px;
+    margin-left: 30px;
+}
+
+h1{
+    padding-top: 10px;
+    font-size: 25px;
+}
+
+h3{
+    margin-left: 150px;
+    padding-top: 15px;
+    font-size: 18px;
+}
+
+.form{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 40px;
+    height: 40px;
+}
+
+input{
+    border-radius: 7px;
+    border: 1px solid rgba(5, 5, 5, 0.2);
+}
+
+.meme-click{
+    background-color: #AE58AF;
+    color: aliceblue;
+    font-size: large;
+    margin-top: 50px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.footer {
+    background-color: #AE58AF;
+    display: flex;
+    justify-content: center;
+    margin-top: 400px;
+    border: 1px solid black;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
